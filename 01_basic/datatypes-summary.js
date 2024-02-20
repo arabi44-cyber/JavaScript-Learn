@@ -37,9 +37,28 @@ myFunction()
 
 
 // +++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
 //Stack(Primitive), Heap(Non-Primitive)
 
 let  myChannel = "arabiHello"
-let anotherId = "oaoaoa"
 
-console.log
+
+let anothername = "hello"
+
+console.log(myChannel)
+console.log(anothername)
+
+
+//
+let userone ={
+    email:"hello@gmail.com",
+    npi:"user@13"
+}
+let usertwo = userone
+
+usertwo.email="raju102@gmail.com"
+
+
+console.log(userone.email);
+console.log(usertwo.email);
