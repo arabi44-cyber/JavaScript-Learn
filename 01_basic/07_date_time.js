@@ -27,4 +27,4 @@ let myTimeStamp = Date.now()
 newDate.toLocaleString('deafult',{
     weekday:"long"
 
-})
+});
