@@ -9,7 +9,7 @@ const jsUser = {
     [mySym]: "mykey1",
     address: "ktm",
     age: 18,
-    email: "learner.soul11@gmail.com",
+    email: "learnersoul11@gmail.com",
     isLoggenIN: false,
     lastLoginday: ["Monday","Sunday"]
 }
