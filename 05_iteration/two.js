@@ -23,3 +23,4 @@ let score = 11
     console.log(`Score is ${score}`);
     score++
  } while (score <= 10);
+ 
