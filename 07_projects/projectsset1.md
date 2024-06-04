@@ -3,9 +3,9 @@
 ## project link 
 [Click here](https://stackblitz.com/edit/stackblitz-starters-cbqln3?file=index.html)
 
-# solution code 
+# Solution code 
 
-## project 1 
+## Project 1 
 
 ```JavaScript
 console.log("arabi44-cyber")
