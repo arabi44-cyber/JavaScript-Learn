@@ -54,6 +54,7 @@ buttons.forEach(function (button) {
 ## Project 2 
 
 ```Javascript
+consloe.log("arabi44-cyber");
 const form = document.querySelector('form');
 
 form.addEventListener('submit', function (e) {
@@ -84,4 +85,19 @@ form.addEventListener('submit', function (e) {
     }
   }
 });
+```
+
+##project 3 
+```javascript
+consloe.log("arabi44-cyber");
+const clock = document.getElementById('clock');
+
+// const clock = document.querySelector('#clock')
+
+setInterval(function () {
+  let date = new Date();
+  // console.log(date.toLocaleTimeString());
+  clock.innerHTML = date.toLocaleTimeString();
+}, 1000);
+
 ```
