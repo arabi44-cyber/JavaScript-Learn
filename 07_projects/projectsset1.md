@@ -85,9 +85,11 @@ form.addEventListener('submit', function (e) {
     }
   }
 });
+
 ```
 
-##project 3 
+## Project 3
+
 ```javascript
 consloe.log("arabi44-cyber");
 const clock = document.getElementById('clock');
@@ -103,6 +105,7 @@ setInterval(function () {
 ```
 
 ## project 4
+
 ```javascript
 console.log("arabi44-cyber")
 let randomNumber = parseInt(Math.random() * 100 + 1);
