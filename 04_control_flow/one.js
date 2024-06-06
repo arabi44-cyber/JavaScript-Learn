@@ -1,4 +1,4 @@
-// if 
+// if
 
 // const isUserloggedIn = true
 
@@ -15,18 +15,16 @@
 // console.log("execute")
 // <, >, <=, >=, ==, !=, ===, !==
 
-
-// const score = 200 
+// const score = 200
 
 // if(score > 100){
 //     const power = "fly"
 //     console.log(`User power: ${power}`);
 // }
 
-
 // console.log(`User power:${power}`);
 
-const balance = 1000
+const balance = 1000;
 
 // if (balance > 500) console.log("test"),console.log( "test2");
 
@@ -41,19 +39,15 @@ const balance = 1000
 //     console.log("less than 1200")
 // }
 
-
-const  isUserloggedIn  = true
-const debitcard = true
-const loggedInFromGoogle = false
-const loggedFromEmail = true
+const isUserloggedIn = true;
+const debitcard = true;
+const loggedInFromGoogle = false;
+const loggedFromEmail = true;
 
 if (isUserloggedIn && debitcard && 2 == 3) {
-    console.log("Allow to Buy Course")
-    
+  console.log('Allow to Buy Course');
 }
 
 if (loggedFromEmail || loggedInFromGoogle) {
-    console.log("User Logged in")
-    
+  console.log('User Logged in');
 }
-
