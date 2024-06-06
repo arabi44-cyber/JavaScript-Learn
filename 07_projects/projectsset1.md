@@ -1,11 +1,12 @@
 # Projects related to DOM
 
-## project link 
+## project link
+
 [Click here](https://stackblitz.com/edit/stackblitz-starters-cbqln3?file=index.html)
 
-# Solution code 
+# Solution code
 
-## Project 1 
+## Project 1
 
 ```JavaScript
 console.log("arabi44-cyber");
@@ -51,7 +52,8 @@ buttons.forEach(function (button) {
 });
 
 ```
-## Project 2 
+
+## Project 2
 
 ```Javascript
 consloe.log("arabi44-cyber");
@@ -91,7 +93,7 @@ form.addEventListener('submit', function (e) {
 ## Project 3
 
 ```javascript
-consloe.log("arabi44-cyber");
+consloe.log('arabi44-cyber');
 const clock = document.getElementById('clock');
 
 // const clock = document.querySelector('#clock')
@@ -101,13 +103,12 @@ setInterval(function () {
   // console.log(date.toLocaleTimeString());
   clock.innerHTML = date.toLocaleTimeString();
 }, 1000);
-
 ```
 
 ## project 4
 
 ```javascript
-console.log("arabi44-cyber")
+console.log('arabi44-cyber');
 let randomNumber = parseInt(Math.random() * 100 + 1);
 
 const submit = document.querySelector('#subt');
@@ -203,5 +204,4 @@ function newGame() {
     playGame = true;
   });
 }
-
 ```
