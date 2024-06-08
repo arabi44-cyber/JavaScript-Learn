@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Event Two</h1>
+    <button id="stop">Stop</button>
+    <script>
+      const sayArabi = function () {
+        console.log('arabi');
+      };
+      const chnageText = function () {
+        document.querySelector('h1').innerHTML = 'Smile please';
+      };
+
+      const changeMe = setTimeout(chnageText, 2000);
+
+      document.querySelector('#stop').addEventListener('click', function () {
+        clearTimeout(changeMe);
+        console.log('stopped');
+      });
+    </script>
+  </body>
+</html>
