@@ -89,15 +89,6 @@ const promiseFive = new Promise((resolve, reject) => {
 // }
 // getAllUser();
 
-// fetch('https://jsonplaceholder.typicode.com/users')
-//   .than((respons) => {
-//     return respons.json();
-//   })
-//   .then((data) => {
-//     console.log(data);
-//   })
-//   .catch((error) => console.log(error));
-
 fetch('https://api.github.com/users/hiteshchoudhary')
   .then((response) => {
     return response.json();
@@ -105,4 +96,13 @@ fetch('https://api.github.com/users/hiteshchoudhary')
   .then((data) => {
     console.log(data);
   })
-  .catch((error) => console.log(error));
+  .catch((err) => console.log(err));
+
+// fetch('https://api.github.com/users/hiteshchoudhary')
+//   .then((response) => {
+//     return response.json();
+//   })
+//   .then((data) => {
+//     console.log(data);
+//   })
+//   .catch((error) => console.log(error));
