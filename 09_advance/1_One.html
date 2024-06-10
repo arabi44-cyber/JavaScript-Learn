@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
   </head>
-  <body style="background-color: #202020; color: #fff">
+  <body style="background-color: #020236; color: #fff">
     Value State Description <br />
     0 UNSENT Client has been created. open() not called yet. <br />
     1 OPENED open() has been called. <br />
@@ -20,7 +20,8 @@
     const div1 = document.createElement('div');
     const div2 = document.createElement('h2');
     const button = document.getElementById('button');
-    button.style.background = 'green';
+    button.style.background = ' #212121';
+    button.style.color = '#fff';
 
     const requestUrl = 'https://api.github.com/users/hiteshchoudhary';
     const xhr = new XMLHttpRequest();
@@ -30,6 +31,7 @@
       console.log(xhr.readyState);
       if (xhr.readyState === 4) {
         const data = JSON.parse(this.responseText);
+        console.log(data);
         const img = data.avatar_url;
         console.log(img);
         const flow = data.followers;
@@ -39,8 +41,12 @@
           // console.lo/g('clicked');
           div1.innerHTML = `<div class="image" sytle="width:100%;height:auto"><img src="${img}"></div>`;
           div2.innerHTML = `followers : ${flow}`;
+          const h2 = document.createElement('h2');
+          h2.innerHTML = `${data.name}`;
+
           // console.log();
           button.appendChild(div1);
+          button.appendChild(h2);
           button.appendChild(div2);
         });
       }
