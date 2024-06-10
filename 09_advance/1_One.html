@@ -31,12 +31,12 @@
       if (xhr.readyState === 4) {
         const data = JSON.parse(this.responseText);
         const img = data.avatar_url;
-        // console.log(img);
+        console.log(img);
         const flow = data.followers;
-        // console.log(flow);
+        console.log(flow);
 
         button.addEventListener('click', function () {
-          // console.log('clicked');
+          // console.lo/g('clicked');
           div1.innerHTML = `<div class="image" sytle="width:100%;height:auto"><img src="${img}"></div>`;
           div2.innerHTML = `followers : ${flow}`;
           // console.log();
